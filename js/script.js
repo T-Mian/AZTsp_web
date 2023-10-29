@@ -38,20 +38,34 @@ function togle_lang() {
 }
 
 function chek_ekren(){
+  let footer_info_data=document.getElementById("footer_info_data")
+  let footer_opis=document.getElementById("footer_opis")
   let info_firmowe=document.getElementById("info_firmowe")
   let mapaGoogle = document.getElementById("mapaGoogle")
   let ekran =window.innerWidth;
-  if(ekran<=1000){
+  if(ekran<=1000 && (info_firmowe && mapaGoogle)){
     info_firmowe.classList.remove("col-5")
     info_firmowe.classList.add("col-11")
     mapaGoogle.classList.remove("col-5")
     mapaGoogle.classList.add("col-11")
   }
-  if(ekran>1000){
+  if(ekran>1000 && (info_firmowe && mapaGoogle)){
     info_firmowe.classList.remove("col-11")
     info_firmowe.classList.add("col-5")
     mapaGoogle.classList.remove("col-11")
     mapaGoogle.classList.add("col-5")
+  }
+  if(ekran<=600 && (footer_info_data && footer_opis)){
+      footer_info_data.classList.remove("col-5")
+      footer_info_data.classList.add("col-11")
+      footer_opis.classList.remove("col-5")
+      footer_opis.classList.add("col-11")
+  }
+  if(ekran>600 && (footer_info_data && footer_opis)){
+      footer_info_data.classList.remove("col-11")
+      footer_info_data.classList.add("col-5")
+      footer_opis.classList.remove("col-11")
+      footer_opis.classList.add("col-5")
   }
 }
 

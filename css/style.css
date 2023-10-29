@@ -922,6 +922,18 @@ hr {
   color: azure;
 }
 
+#Sub_form_btn{
+  padding: 10px;
+  width: 90%;
+  border-radius: 25px;
+  font-family: Georgia, serif;
+  box-shadow: 0 7px 50px 10px #ea5b0caa;
+}
+
+#Sub_form_btn:hover{
+  background-color:#ea5b0c ;
+  box-shadow: 0 7px 50px 10px #ea5b0caa;
+}
 /* Begin Media Queries*/
 @media screen and (max-width: 850px) {
   .contact-wrapper {
@@ -967,10 +979,6 @@ hr {
     right: 40%;
   }
 
-  .name, .email, textarea {
-    width: 280px;
-  } 
-
   .direct-contact-container {
     margin-top: 60px;
     max-width: 280px;
@@ -1010,8 +1018,8 @@ hr {
     max-width: 90%;
   }
   .pozycja_menu_2 {
-    top: 50%;
-    right: 40%;
+    top: 13%;
+    right: 4%;
   }
 }
 
@@ -1048,8 +1056,11 @@ hr {
     transform:none;
   }
   .pozycja_menu_2 {
-    top: 50%;
-    right: 40%;
+    top: 46%;
+    right: 12%;
+  }
+  .nft .main{
+    text-align: center;
   }
 }
 @media only screen and (max-width: 600px) {
@@ -1067,7 +1078,13 @@ hr {
     font-size: 16px;
   }
   .pozycja_menu_2 {
-    top: 50%;
-    right: 40%;
+    top: 47%;
+    right: 3%;
+  }
+  .nft {
+    max-width: 90%;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
   }
 }
