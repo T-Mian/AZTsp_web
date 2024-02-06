@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pl">
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
@@ -10,67 +11,9 @@
     integrity="sha512-wC/cunGGDjXSl9OHUH0RuqSyW4YNLlsPwhcLxwWW1CR4OeC2E1xpcdZz2DeQkEmums41laI+eGMw95IJ15SS3g=="
     crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <script src="https://kit.fontawesome.com/3dfbae5f2e.js" crossorigin="anonymous"></script>
-  <style>
-    .row::after {
-      content: "";
-      clear: both;
-      display: table;
-    }
 
-    [class*="col-"] {
-      float: left;
-      padding: 5px;
-    }
-
-    .col-1 {
-      width: 8.33%;
-    }
-
-    .col-2 {
-      width: 16.66%;
-    }
-
-    .col-3 {
-      width: 25%;
-    }
-
-    .col-4 {
-      width: 33.33%;
-    }
-
-    .col-5 {
-      width: 41.66%;
-    }
-
-    .col-6 {
-      width: 50%;
-    }
-
-    .col-7 {
-      width: 58.33%;
-    }
-
-    .col-8 {
-      width: 66.66%;
-    }
-
-    .col-9 {
-      width: 75%;
-    }
-
-    .col-10 {
-      width: 83.33%;
-    }
-
-    .col-11 {
-      width: 91.66%;
-    }
-
-    .col-12 {
-      width: 100%;
-    }
-  </style>
 </head>
+
 <body>
   <div class="logo">
     <picture>
@@ -80,20 +23,188 @@
     </picture>
   </div>
   <div class="pozycja_menu" style="z-index: 100;">
-    <input type="checkbox" id="hamburger_menu_icon" role="button" aria-label="Display the menu" class="menu_mobile" onclick="menu_togle()">
-      <ul class="crumb1_menu" id="lista_menu">
-       <li><a href="index.html">Home</a></li>
-        <!-- <li><a href="oferta.html">Oferta</a></li> -->
-        <li><a href="praca.html">Praca</a></li>
-        <li><a href="szkolenia.html">Szkolenia</a></li>
-        <li><a href="kontakt.html">Kontakt</a></li>
-        <li><a href="galeria.html">Galeria</a></li>
-        <li><a href="wiedza.html">Wiedza</a></li>
-        <li><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 640 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><style>svg{fill:#ffffff}</style><path d="M0 128C0 92.7 28.7 64 64 64H256h48 16H576c35.3 0 64 28.7 64 64V384c0 35.3-28.7 64-64 64H320 304 256 64c-35.3 0-64-28.7-64-64V128zm320 0V384H576V128H320zM178.3 175.9c-3.2-7.2-10.4-11.9-18.3-11.9s-15.1 4.7-18.3 11.9l-64 144c-4.5 10.1 .1 21.9 10.2 26.4s21.9-.1 26.4-10.2l8.9-20.1h73.6l8.9 20.1c4.5 10.1 16.3 14.6 26.4 10.2s14.6-16.3 10.2-26.4l-64-144zM160 233.2L179 276H141l19-42.8zM448 164c11 0 20 9 20 20v4h44 16c11 0 20 9 20 20s-9 20-20 20h-2l-1.6 4.5c-8.9 24.4-22.4 46.6-39.6 65.4c.9 .6 1.8 1.1 2.7 1.6l18.9 11.3c9.5 5.7 12.5 18 6.9 27.4s-18 12.5-27.4 6.9l-18.9-11.3c-4.5-2.7-8.8-5.5-13.1-8.5c-10.6 7.5-21.9 14-34 19.4l-3.6 1.6c-10.1 4.5-21.9-.1-26.4-10.2s.1-21.9 10.2-26.4l3.6-1.6c6.4-2.9 12.6-6.1 18.5-9.8l-12.2-12.2c-7.8-7.8-7.8-20.5 0-28.3s20.5-7.8 28.3 0l14.6 14.6 .5 .5c12.4-13.1 22.5-28.3 29.8-45H448 376c-11 0-20-9-20-20s9-20 20-20h52v-4c0-11 9-20 20-20z"/></svg></li>
-      </ul><br>
+    <input type="checkbox" id="hamburger_menu_icon" role="button" aria-label="Display the menu" class="menu_mobile"
+      onclick="menu_togle()">
+    <ul class="crumb1_menu" id="lista_menu">
+      <li><a href="index.html">Home</a></li>
+      <!-- <li><a href="oferta.html">Oferta</a></li> -->
+      <li><a href="praca.html">Praca</a></li>
+      <li><a href="szkolenia.html">Szkolenia</a></li>
+      <li><a href="kontakt.html">Kontakt</a></li>
+      <li><a href="galeria.html">Galeria</a></li>
+      <li><a href="wiedza.html">Wiedza</a></li>
+      <li><i class="fa-solid fa-language" style="color: #ffffff;"></i></li>
+    </ul><br>
+  </div>
+  <div class="hero2">
+    <fieldset class="hero2-text">
+      <legend class="border-text">Szkoła AZT</legend>
+      <h1 style="text-transform: uppercase;">Oferta AZt</h1>
+      <p>
+        "Lorem ipsum <br>
+        TIG, MAG 135, MAG 136, MIG 131<br>
+        PROFESJONALNY INSTRUKTOR <br>
+        <b style="color: #ea5b0c;">
+          1 Lekcja gratis
+        </b>
+      </p>
+      <button title="Zapisz się już teraz!">
+        Zapisz się już teraz!
+      </button>
+    </fieldset>
+  </div>
+  <h2 class="etykieta_glass">
+    Lorem ipsum
+  </h2>
+  <div class="pojemnik col-11">
+    <div class="nft">
+      <div class='main'>
+        <picture>
+          <source srcset="assety/graficzne/welding.webP" type="image/webp" />
+          <source srcset="assety/graficzne/abstract-1867937_1920.png" type="image/png" />
+          <img class="tokenImage" src="assety/graficzne/AZT_logo01_white.png" alt="Ikon">
+        </picture>
+        <h2>Oferta</h2>
+        <p class='description'>Lorem ipsum – tekst składający się z łacińskich i quasi-łacińskich wyrazów, mający
+          korzenie w klasycznej łacinie, wzorowany na fragmencie traktatu Cycerona „O granicach dobra i zła” (De finibus
+          bonorum et malorum) napisanego w 45 p.n.e. Tekst jest stosowany do demonstracji krojów pisma (czcionek,
+          fontów), kompozycji kolumny itp. Po raz pierwszy został użyty przez nieznanego drukarza w XVI wieku.
+          <br>
+          Tekst w obcym języku pozwala skoncentrować uwagę na wizualnych aspektach tekstu, a nie jego znaczeniu.
+        </p>
+        <div class='tokenInfo'>
+          <div class="price">
+            <p>Czas przyjęcia</p>
+          </div>
+          <div class="price">
+            <p>Czas zakończenia</p>
+          </div>
+        </div>
+        <hr />
+      </div>
     </div>
+  </div>
+  <div class="pojemnik col-11">
+    <div class="nft">
+      <div class='main'>
+        <picture>
+          <source srcset="assety/graficzne/welding.webP" type="image/webp" />
+          <source srcset="assety/graficzne/abstract-1867937_1920.png" type="image/png" />
+          <img class="tokenImage" src="assety/graficzne/AZT_logo01_white.png" alt="Ikon">
+        </picture>
+        <h2>Oferta</h2>
+        <p class='description'>Lorem ipsum – tekst składający się z łacińskich i quasi-łacińskich wyrazów, mający
+          korzenie w klasycznej łacinie, wzorowany na fragmencie traktatu Cycerona „O granicach dobra i zła” (De finibus
+          bonorum et malorum) napisanego w 45 p.n.e. Tekst jest stosowany do demonstracji krojów pisma (czcionek,
+          fontów), kompozycji kolumny itp. Po raz pierwszy został użyty przez nieznanego drukarza w XVI wieku.
+          <br>
+          Tekst w obcym języku pozwala skoncentrować uwagę na wizualnych aspektach tekstu, a nie jego znaczeniu.
+        </p>
+        <div class='tokenInfo'>
+          <div class="price">
+            <p>Secjal 1</p>
+          </div>
+          <div class="price">
+            <p>Secjal 2</p>
+          </div>
+        </div>
+        <hr />
+      </div>
+    </div>
+  </div>
+  <div class="pojemnik col-11">
+    <div class="nft">
+      <div class='main'>
+        <picture>
+          <source srcset="assety/graficzne/welding.webP" type="image/webp" />
+          <source srcset="assety/graficzne/abstract-1867937_1920.png" type="image/png" />
+          <img class="tokenImage" src="assety/graficzne/AZT_logo01_white.png" alt="Ikon">
+        </picture>
+        <h2>Oferta</h2>
+        <p class='description'>Lorem ipsum – tekst składający się z łacińskich i quasi-łacińskich wyrazów, mający
+          korzenie w klasycznej łacinie, wzorowany na fragmencie traktatu Cycerona „O granicach dobra i zła” (De finibus
+          bonorum et malorum) napisanego w 45 p.n.e. Tekst jest stosowany do demonstracji krojów pisma (czcionek,
+          fontów), kompozycji kolumny itp. Po raz pierwszy został użyty przez nieznanego drukarza w XVI wieku.
+          <br>
+          Tekst w obcym języku pozwala skoncentrować uwagę na wizualnych aspektach tekstu, a nie jego znaczeniu.
+        </p>
+        <div class='tokenInfo'>
+          <div class="price">
+            <p>Czas przyjęcia</p>
+          </div>
+          <div class="price">
+            <p>Czas zakończenia</p>
+          </div>
+        </div>
+        <hr />
+      </div>
+    </div>
+  </div>
+  <div class="pojemnik col-11">
+    <div class="nft">
+      <div class='main'>
+        <picture>
+          <source srcset="assety/graficzne/welding.webP" type="image/webp" />
+          <source srcset="assety/graficzne/abstract-1867937_1920.png" type="image/png" />
+          <img class="tokenImage" src="assety/graficzne/AZT_logo01_white.png" alt="Ikon">
+        </picture>
+        <h2>Oferta</h2>
+        <p class='description'>Lorem ipsum – tekst składający się z łacińskich i quasi-łacińskich wyrazów, mający
+          korzenie w klasycznej łacinie, wzorowany na fragmencie traktatu Cycerona „O granicach dobra i zła” (De finibus
+          bonorum et malorum) napisanego w 45 p.n.e. Tekst jest stosowany do demonstracji krojów pisma (czcionek,
+          fontów), kompozycji kolumny itp. Po raz pierwszy został użyty przez nieznanego drukarza w XVI wieku.
+          <br>
+          Tekst w obcym języku pozwala skoncentrować uwagę na wizualnych aspektach tekstu, a nie jego znaczeniu.
+        </p>
+        <div class='tokenInfo'>
+          <div class="price">
+            <p>Secjal 1</p>
+          </div>
+          <div class="price">
+            <p>Secjal 2</p>
+          </div>
+        </div>
+        <hr />
+      </div>
+    </div>
+  </div>
+  <div>
+    <footer class="col-12">
+      <div class="nft" style="max-width: 95%;transition: none;">
+        <div class="main col-5" id="footer_info_data">
+          <p class='description'>
+            <b>AZT Sp. z o.o </b><br>
+            571 577 918<br>
+            508 803 858 <br>
+            aztspawacz@aztsp.pl <br>
+            NIP: 1234567890 <br>
+            REGON :123456789 <br>
+            Wrocław 53-609, Dolnośląskie<br>
+            Fabryczna 14, 53-609 Wrocław
 
-  
+          </p>
+        </div>
+        <div class='main main col-5' id="footer_opis">
+          <p class='description'>
+            <br>
+            Lorem ipsum – tekst składający się z łacińskich i quasi-łacińskich wyrazów, mający
+            korzenie w klasycznej łacinie, wzorowany na fragmencie traktatu Cycerona „O granicach dobra i zła” (De
+            finibus
+            bonorum et malorum) napisanego w 45 p.n.e. Tekst jest stosowany do demonstracji krojów pisma (czcionek,
+            fontów), kompozycji kolumny itp. Po raz pierwszy został użyty przez nieznanego drukarza w XVI wieku.
+          </p>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <script src="js/script.js"></script>
+
+  <div class="to_top" title="Do góry">
+    <a href="#"><button title="UP" class="top_btn">
+        <i class="fa-solid fa-angles-up" style="color: #de9754;"></i>
+      </button>
+    </a>
+  </div>
   <script src="js/script.js"></script>
 </body>
 
