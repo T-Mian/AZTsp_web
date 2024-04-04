@@ -1,0 +1,8 @@
+User-agent: * 
+Disallow: /js/
+Disallow: /css/
+Disallow: /assety/
+Disallow: /.well-known/
+Disallow: /form_web.php
+Disallow: /.htaccess
+Sitemap: http://aztsp.pl/sitemap.xml
