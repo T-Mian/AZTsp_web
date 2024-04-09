@@ -4,10 +4,9 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <meta name="keywords" content="зварювальна компанія - галерея, зварювання - галерея, зварювання MIG/MAG - галерея, зварювання TIG - галерея, зварювання алюмінію - галерея, зварювання нержавіючої сталі - галерея">
-  <meta name="description" content="АЗТ С.п. є лідером у сфері навчання MIG/MAG та TIG зварюванню - наша Галерея">
+  <meta name="keywords" content="firma spawalnicza, spawanie, spawanie MIG/MAG, spawanie TIG, spawanie aluminium, spawanie stali nierdzewnej">
+  <meta name="description" content="AZT S.p. to lider w dziedzinie nauczania spawania MIG/MAG oraz TIG">
   <title> AZT S.p. - Галерея</title>
-  <link rel="canonical" href="galeria.html" />
   <link href="css/galery.css" rel="stylesheet" type="text/css" />
   <link href="css/style.css" rel="stylesheet" type="text/css" />
   <link rel="icon" type="image/x-icon" href="assety/graficzne/favicon.ico">
@@ -50,8 +49,8 @@
   <div class="hero2">
     <fieldset class="hero2-text">
       <legend class="border-text">Школа АЗТ</legend>
-      <h1 style="text-transform: uppercase;" id="lan" >галерея</h1>
-      <p >
+      <h1 style="text-transform: uppercase;">галерея</h1>
+      <p>
       Вітаємо в нашій галереї!
       </p>
     </fieldset>
@@ -142,9 +141,9 @@
       <div class="img-wrapper">
         <a href="контакт.html#formulaz" rel="noopener">
           <picture>
-            <source srcset="assety/webP/pexels-the-masked-guy-8195876.webp" type="image/webp" />
-            <source srcset="assety/foto/pexels-the-masked-guy-8195876.jpg" type="image/jpg" />
-            <img src="assety/foto/pexels-the-masked-guy-8195876.jpg" alt="фото" />
+            <source srcset="assety/webP/pexels-the-masked-guy-8195876..webp" type="image/webp" />
+            <source srcset="assety/foto/pexels-the-masked-guy-8195876..jpg" type="image/jpg" />
+            <img src="assety/foto/pexels-the-masked-guy-8195876..jpg" alt="фото" />
           </picture>
         </a>
       </div>
@@ -158,11 +157,13 @@
               d="M50,67.1c-0.6,0-1.2-0.2-1.8-0.7c-3.8-3.8-7.7-7.7-11.5-11.5c-2.3-2.3,1.2-5.8,3.5-3.5c2.5,2.5,4.9,4.9,7.4,7.4      c0-13.7,0-27.4,0-41.2c0-0.6,0.2-1.2,0.5-1.5c0,0,0,0,0,0c0.4-0.6,1.1-1,2-0.9c13.7,0.3,26.4,7.2,33.5,19.1      C96.5,55.9,84.7,85,60.2,91.6C35.5,98.2,11.6,79.1,11.1,54c-0.1-3.2,4.9-3.2,5,0c0.3,13.8,8.4,26.4,21.3,31.5      c12.5,5,27.1,1.9,36.6-7.5c9.5-9.5,12.5-24.1,7.5-36.6c-4.8-12.1-16.3-20.1-29-21.2c0,12.8,0,25.5,0,38.3      c2.5-2.5,4.9-4.9,7.4-7.4c2.3-2.3,5.8,1.3,3.5,3.5c-3.9,3.9-7.8,7.8-11.8,11.8C51.2,66.9,50.6,67.1,50,67.1z" />
           </svg>
         </span>
+        Прокрути вниз
       </p>
+
     </header>
     </div>
   </div>
-  <script src="js/galeria.js"></script>
+  <script src="js/ga.js"></script>
   <script src="js/script.js"></script>
 </body>
 
